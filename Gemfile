@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+<<<<<<< HEAD
 
 gem "hashie"
 gem "sinatra", "1.4.4"
@@ -11,4 +12,13 @@ gem "pry", :group => "development"
 
 group :test do
   gem "rspec"
+=======
+gem "rspec"
+gem "sinatra", = 1.4.4
+gem "hashie"
+
+ 
+group :development do
+gem "pry"
+>>>>>>> db1d93d6d8979ef5e4db22d10e501718e25d2998
 end
